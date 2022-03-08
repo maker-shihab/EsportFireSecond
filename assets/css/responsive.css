@@ -1,59 +1,80 @@
-@media(max-width:991px){
-	.world-ranking .section_title3{
-		margin-top: 40px;
-	}
-	.achieved_counter div:nth-child(n+3) h3{
-		margin-top: 30px;
-	}
-	.general_cs_item .single_items, .skin_articles_items .single_items, .lol_articles_items .single_items {
-	    flex: 0 0 calc(34% - 20px);
-	}
-	.general_cs_item, .skin_articles_items, .lol_articles_items {
-	    justify-content: flex-start;
-	    row-gap: 30px;
-	}
-	.categories-items {
-	    flex-wrap: wrap;
-	    row-gap: 20px;
-	}
-	.categories-single{
-		flex: 0 0 calc(50% - 15px);
-	}
-	.world_ranking_col::after {
-	    display: none;
-	}
-
+@media (max-width: 991px) {
+  .world-ranking .section_title3 {
+    margin-top: 40px;
+  }
+  .achieved_counter div:nth-child(n + 3) h3 {
+    margin-top: 30px;
+  }
+  .general_cs_item .single_items,
+  .skin_articles_items .single_items,
+  .lol_articles_items .single_items {
+    flex: 0 0 calc(34% - 20px);
+  }
+  .general_cs_item,
+  .skin_articles_items,
+  .lol_articles_items {
+    justify-content: flex-start;
+    row-gap: 30px;
+  }
+  .categories-items {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .categories-single {
+    flex: 0 0 calc(50% - 15px);
+  }
+  .world_ranking_col::after {
+    display: none;
+  }
+  .feature-article-area .col-lg-9 {
+    border-right: none !important;
+  }
+  .feature-article-single {
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }
-@media(max-width: 767px){
-	.achieved_counter  h3{
-		margin-top: 25px;
-	}
-	.general_cs_item .single_items, .skin_articles_items .single_items, .lol_articles_items .single_items {
-	    flex: 0 0 calc(52% - 20px);
-	}	
-	.world_ranking_card {
-	    flex-wrap: wrap;
-	    justify-content: flex-start;
-	    row-gap: 30px;
-	}
-	.card_items {
-		flex: 0 0 calc(33.33% - 30px)
-	}
-	.gamerPay{
-		margin-top: 40px;
-	}
+@media (max-width: 767px) {
+  .achieved_counter h3 {
+    margin-top: 25px;
+  }
+  .general_cs_item .single_items,
+  .skin_articles_items .single_items,
+  .lol_articles_items .single_items {
+    flex: 0 0 calc(52% - 20px);
+  }
+  .world_ranking_card {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 30px;
+  }
+  .card_items {
+    flex: 0 0 calc(33.33% - 30px);
+  }
+  .gamerPay {
+    margin-top: 40px;
+  }
+  .categories-items {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .categories-single {
+    flex: 0 0 100% !important;
+  }
 }
-@media(max-width: 575px){
-	.general_cs_item .single_items, .skin_articles_items .single_items, .lol_articles_items .single_items {
-	    flex: 0 0 100%;
-	}
-	.single_items_img img {
-	    height: auto;
-	}
-	.article-title2 {
+@media (max-width: 575px) {
+  .general_cs_item .single_items,
+  .skin_articles_items .single_items,
+  .lol_articles_items .single_items {
+    flex: 0 0 100%;
+  }
+  .single_items_img img {
+    height: auto;
+  }
+  .article-title2 {
     min-height: auto;
-}
-.card_items {
+  }
+  .card_items {
     flex: 0 0 calc(50% - 30px);
-}
+  }
 }

@@ -80,20 +80,19 @@
 /* Custome css for this page */
 /* Custome css for this page */
 
-
 /* Our Categories  */
-.categories-items{
+.categories-items {
   column-gap: 15px;
 }
-.categories-single img{
+.categories-single img {
   width: 100%;
 }
 .categories-single p {
-    font-size: 20px;
-    line-height: 30px;
-    color: #303030;
-    font-weight: 700;
-    margin-top: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #303030;
+  font-weight: 700;
+  margin-top: 10px;
 }
 
 /* World Ranking section  */
@@ -133,20 +132,20 @@
 .youtube_bg img {
   width: 100%;
 }
-.sh-watch_video{
+.sh-watch_video {
   border-radius: 5px;
   margin-top: 25px;
-  box-shadow: 0px 4px 36px 0px #0000003B;
+  box-shadow: 0px 4px 36px 0px #0000003b;
 }
-.sh_watch_video_content{
+.sh_watch_video_content {
   padding: 16px;
 }
-.sh_watch_video_bg{
+.sh_watch_video_bg {
   position: relative;
   width: 100%;
   height: 100%;
 }
-.sh_play_btn{
+.sh_play_btn {
   position: absolute;
   left: 0;
   top: 0;
@@ -156,27 +155,27 @@
   justify-content: center;
   align-items: center;
 }
-.sh_play_btn a{
+.sh_play_btn a {
   display: inline-block;
 }
-.sh_play_btn a i{
+.sh_play_btn a i {
   font-size: 50px;
   color: var(--Secondary_white);
   transition: 0.3s;
 }
-.sh_play_btn a:hover i{
+.sh_play_btn a:hover i {
   color: var(--Secondary_yellow);
 }
-.pr_3{
+.pr_3 {
   padding-right: 30px !important;
 }
-.pl_3{
+.pl_3 {
   padding-left: 30px !important;
 }
-.world_ranking_col{
+.world_ranking_col {
   position: relative;
 }
-.world_ranking_col::after{
+.world_ranking_col::after {
   position: absolute;
   content: "";
   top: 0;
@@ -185,7 +184,6 @@
   height: 100%;
   background-color: #dee2e6;
 }
-
 
 /* gamerPay */
 .gamerPay {
@@ -208,11 +206,11 @@
 }
 
 .achieved_counter h3 {
-    font-weight: 700;
-    font-size: 46px;
-    color: #f59f00;
+  font-weight: 700;
+  font-size: 46px;
+  color: #f59f00;
 }
-.achieved_counter p{
+.achieved_counter p {
   font-size: 16px;
   font-weight: 700;
   display: inline-block;
@@ -222,9 +220,9 @@
 .general_cs {
   padding-top: 50px;
 }
-.general_cs_item ,
+.general_cs_item,
 .skin_articles_items,
-.lol_articles_items{
+.lol_articles_items {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -241,31 +239,97 @@
   object-fit: cover;
   height: 125px;
 }
-.section-title2{
-  padding-bottom: 0px
+.section-title2 {
+  padding-bottom: 0px;
 }
-.section_title3{
+.section_title3 {
   font-size: 36px;
   line-height: 42px;
 }
 .article-title2 {
-    font-size: 14px;
-    letter-spacing: -.5px;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    line-height: 17px;
-    min-height: 52px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  line-height: 17px;
+  min-height: 52px;
 }
 .article-date2 {
-    font-size: 12px;
-    letter-spacing: .8px;
-    padding-bottom: 12px
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  padding-bottom: 12px;
 }
 .article-pragrap2 {
-    font-size: 14px;
-    margin-top: 4px;
-    letter-spacing: -.2px;
+  font-size: 14px;
+  margin-top: 4px;
+  letter-spacing: -0.2px;
 }
-.pb-7{
+.pb-7 {
   padding-bottom: 70px;
+}
+.feature-article-area .hero_aside {
+  margin-top: 0px;
+}
+@media screen and (max-width: 1260px) {
+  .hero_aside {
+    padding: 0px !important;
+  }
+}
+.feature-article-thumb {
+  flex: 0 0 50%;
+}
+.feature-article-thumb img {
+  width: 100%;
+  /* height: 150px; */
+  object-fit: cover;
+}
+.feature-article-single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.feature-text-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222a35;
+}
+.feature-text-date {
+  font-size: 14px;
+  color: #dc8600;
+}
+.feature-text-pragrap {
+  font-size: 14px;
+  line-height: 16px;
+}
+.feature-article-single {
+  margin-bottom: 30px;
+}
+.game-single-slider {
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.082);
+  background: #fff;
+  margin: 10px;
+}
+.btn-seemore {
+  padding: 15px 50px;
+  background: #f59f00;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 50px;
+  border: 2px solid transparent;
+}
+.btn-seemore:hover {
+  border-color: #f59f00;
+  background: transparent;
+  color: #f59f00;
+}
+.feature-article-area .col-lg-9 {
+  border-right: 1px solid #dee2e6 !important;
+}
+.categories-single img {
+  height: auto;
+  width: 100%;
 }

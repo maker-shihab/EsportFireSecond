@@ -333,3 +333,42 @@
   height: auto;
   width: 100%;
 }
+.article-thumb a {
+  display: block;
+}
+/*owl-carousel nav & dots*/
+.games-slider.owl-theme .owl-nav {
+  left: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 40.5%;
+  width: 100%;
+  color: #000000;
+}
+.games-slider.owl-theme .owl-nav .owl-prev {
+  left: -50px;
+  position: absolute;
+  outline: unset;
+}
+.games-slider.owl-theme .owl-nav .owl-next {
+  right: -50px;
+  position: absolute;
+  outline: unset;
+}
+.games-slider.owl-theme .owl-nav span {
+  font-size: 45px;
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+  border: none;
+  line-height: 28px;
+  line-height: 2.8rem;
+  text-align: center;
+}
+.games-slider.owl-theme .owl-nav span:hover {
+  background: transparent;
+  color: #000000;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+}

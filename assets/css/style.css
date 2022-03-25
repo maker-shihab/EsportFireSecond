@@ -11,6 +11,15 @@
 }
 .article-single-item {
   margin-bottom: 40px;
+  box-shadow: rgb(0 0 0 / 15%) 0 15px 25px, rgb(0 0 0 / 5%) 0 5px 10px;
+  height: 100%;
+  transition: 0.3s all ease-in-out;
+}
+.article-single-item:hover {
+  transform: scale(1.05);
+}
+.article-text {
+  padding: 0 15px;
 }
 .article-thumb img {
   height: 100%;
@@ -18,11 +27,16 @@
 }
 .article-title {
   color: #222a35;
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
   padding-top: 30px;
   display: block;
   padding-bottom: 10px;
+  min-height: 88px;
+}
+.article-title:hover {
+  color: #f59f00;
 }
 .article-date {
   font-size: 16px;
@@ -42,6 +56,7 @@
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr;
   align-items: center;
+  column-gap: 10px;
 }
 .game-card-date {
   text-align: center;
@@ -51,11 +66,12 @@
   color: #414141;
 }
 .btn-transparent {
-  padding: 10px 20px;
-  border: 2px solid #222a35;
+  padding: 8px 15px;
+  border: 1px solid #222a35;
   color: #222a35;
   font-weight: 500;
   display: block;
+  font-size: 14px;
 }
 .btn-transparent:hover {
   background: #222a35;
@@ -65,16 +81,24 @@
   font-weight: 700;
   font-size: 36px;
   color: #222a35;
+  text-align: center;
 }
 .game-card-btn {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+
   column-gap: 10px;
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.player {
+  width: 75px;
+  height: 85px;
+  margin: 0 auto;
 }
 .player img {
   height: 100%;
-  max-width: 100px;
   width: 100%;
 }
 /* Custome css for this page */
@@ -104,17 +128,19 @@
 }
 .world-ranking .card_items {
   text-align: center;
+  flex: 0 0 calc(20% - 30px);
 }
 .world_ranking_card .card_items p {
   font-weight: 600;
   color: #303030;
 }
 .tema_image {
-  margin: 20px 0 20px;
+  margin-top: 20px;
+  height: 130px;
 }
 .tema_image img {
-  width: 90%;
-  height: auto;
+  width: 85%;
+  height: 85%;
   text-align: center;
 }
 .teamFicture {
@@ -157,14 +183,26 @@
 }
 .sh_play_btn a {
   display: inline-block;
-}
-.sh_play_btn a i {
-  font-size: 50px;
-  color: var(--Secondary_white);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  text-align: center;
+  line-height: 55px;
   transition: 0.3s;
 }
+.sh_play_btn a i {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+.sh_play_btn a:hover {
+  border-color: #f59f00;
+}
 .sh_play_btn a:hover i {
-  color: var(--Secondary_yellow);
+  color: #f59f00;
 }
 .pr_3 {
   padding-right: 30px !important;
@@ -288,6 +326,10 @@
   align-items: center;
   justify-content: space-between;
   column-gap: 20px;
+  cursor: pointer;
+}
+.feature-article-single:hover .feature-text-title {
+  color: #f59f00;
 }
 .feature-text-title {
   font-size: 16px;

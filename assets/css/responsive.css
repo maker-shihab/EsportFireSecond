@@ -1,3 +1,12 @@
+@media (max-width: 1199px) {
+  .world-ranking .card_items {
+    flex: 0 0 20%;
+  }
+  .world_ranking_card {
+    column-gap: 10px;
+    row-gap: 30px;
+  }
+}
 @media (max-width: 991px) {
   .world-ranking .section_title3 {
     margin-top: 40px;
@@ -43,6 +52,9 @@
   .lol_articles_items .single_items {
     flex: 0 0 calc(52% - 20px);
   }
+  .world-ranking .card_items {
+    flex: 0 0 calc(33% - 30px);
+  }
   .world_ranking_card {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -74,7 +86,19 @@
   .article-title2 {
     min-height: auto;
   }
-  .card_items {
+  .world-ranking .card_items {
     flex: 0 0 calc(50% - 30px);
+  }
+  .tema_image img {
+    width: auto;
+    height: 90%;
+    text-align: center;
+  }
+  .categori-thum {
+    height: 400px;
+  }
+  .categori-thum img {
+    height: 100%;
+    width: 100%;
   }
 }
